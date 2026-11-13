@@ -528,7 +528,7 @@ class MultiTaskDatasetGRUT(Dataset):
     def construct_sentence(self):
         """
         Build the 1+L FiD slot layout for each datapoint.
-        Slot 0: C_u prompt (optional date prefix + "What would user U purchase after H ?")
+        Slot 0: C_u prompt (optional date prefix + "What would user purchase after H ?")
         Slots 1..L: C_v lines (one per source item in last-N window)
         """
         st = time()
@@ -539,7 +539,7 @@ class MultiTaskDatasetGRUT(Dataset):
             if self.prompt_sentence_for_fid_input:
                 sequence_text = datapoint["history_lex_id"]
                 user_sentence = (
-                    f"What would user {datapoint['user_lex_id']} purchase after {sequence_text} ?"
+                    f"What would user purchase after {sequence_text} ?"
                 )
                 if (
                     self.temporal_feature == "target_rel_abs"

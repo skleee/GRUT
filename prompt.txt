@@ -1,22 +1,22 @@
-sequential; seen; Considering user {user_lex_id} has interacted with items {history_lex_id} . What is the next recommendation for the user ?; {target_lex_id}
-sequential; seen; Here is the purchase history of user {user_lex_id} : item {history_lex_id} . I wonder what is the next recommended item for the user .; {target_lex_id}
-sequential; seen; user {user_lex_id} has purchased items {history_lex_id}, predict next possible item to be bought by the user ?; {target_lex_id}
-sequential; seen; I find the purchase list of user {user_lex_id} : items {history_lex_id} , I wonder what other itmes does the user need . Can you help me decide ?; {target_lex_id}
-sequential; seen; According to what items user {user_lex_id} has purchased : items {history_lex_id} , Can you recommend another item to the user ?; {target_lex_id}
-sequential; seen; What would user {user_lex_id} be likely to purchase next after buying items {history_lex_id} ?; {target_lex_id}
-sequential; seen; By analyzing the user {user_lex_id} 's purchase of items {history_lex_id} , what is the next item expected to be bought ?; {target_lex_id}
-sequential; seen; Can you recommend the next item for user {user_lex_id} , given the user 's purchase of items {history_lex_id} ?; {target_lex_id}
-sequential; seen; After buying items {history_lex_id} , what is the next item that could be recommended for user {user_lex_id} ?; {target_lex_id}
-sequential; seen; The user {user_lex_id} has bought items : items {history_lex_id} , What else do you think is necessary for the user ?; {target_lex_id}
-sequential; unseen; What is the top recommended item for user {user_lex_id} who interacted with item {history_lex_id} ?; {target_lex_id}
-straightforward; seen; What should we recommend for {dataset} user {user_lex_id} ?; {dataset} {target_lex_id}
-straightforward; seen; {dataset} user {user_lex_id} is looking for some items . Do you have any recommendations ?; {target_lex_id}
-straightforward; seen; Do you have any suggested items for {dataset} user {user_lex_id} ?; {dataset} {target_lex_id}
-straightforward; seen; Which recommendation should we provide to {dataset} user {user_lex_id} ?; {dataset} {target_lex_id}
-straightforward; seen; How can we assist {dataset} user {user_lex_id} with a recommendation ?; {dataset} {target_lex_id}
-straightforward; seen; What would be a suitable recommendation for {dataset} user {user_lex_id} ?; {dataset} {target_lex_id}
-straightforward; seen; What would be a helpful recommendation for {dataset} user {user_lex_id} ?; {dataset} {target_lex_id}
-straightforward; seen; Can you recommend an item for {dataset} user {user_lex_id} ?; {dataset} {target_lex_id}
-straightforward; seen; Based on {dataset} user {user_lex_id} 's interests and requirements , what item would you suggest to try ?; {dataset} {target_lex_id}
-straightforward; seen; For {dataset} user {user_lex_id} , what item stands out as a top recommendation that they should consider ?; {dataset} {target_lex_id}
-straightforward; unseen; What is the top recommendation for {dataset} user {user_lex_id} ?; {dataset} {target_lex_id}
+sequential; seen; Considering user has interacted with items {history_lex_id} . What is the next recommendation for the user ?; {target_lex_id}
+sequential; seen; Here is the purchase history of user : item {history_lex_id} . I wonder what is the next recommended item for the user .; {target_lex_id}
+sequential; seen; user has purchased items {history_lex_id}, predict next possible item to be bought by the user ?; {target_lex_id}
+sequential; seen; I find the purchase list of user : items {history_lex_id} , I wonder what other itmes does the user need . Can you help me decide ?; {target_lex_id}
+sequential; seen; According to what items user has purchased : items {history_lex_id} , Can you recommend another item to the user ?; {target_lex_id}
+sequential; seen; What would user be likely to purchase next after buying items {history_lex_id} ?; {target_lex_id}
+sequential; seen; By analyzing the user 's purchase of items {history_lex_id} , what is the next item expected to be bought ?; {target_lex_id}
+sequential; seen; Can you recommend the next item for user , given the user 's purchase of items {history_lex_id} ?; {target_lex_id}
+sequential; seen; After buying items {history_lex_id} , what is the next item that could be recommended for user ?; {target_lex_id}
+sequential; seen; The user has bought items : items {history_lex_id} , What else do you think is necessary for the user ?; {target_lex_id}
+sequential; unseen; What is the top recommended item for user who interacted with item {history_lex_id} ?; {target_lex_id}
+straightforward; seen; What should we recommend for {dataset} user ?; {dataset} {target_lex_id}
+straightforward; seen; {dataset} user is looking for some items . Do you have any recommendations ?; {target_lex_id}
+straightforward; seen; Do you have any suggested items for {dataset} user ?; {dataset} {target_lex_id}
+straightforward; seen; Which recommendation should we provide to {dataset} user ?; {dataset} {target_lex_id}
+straightforward; seen; How can we assist {dataset} user with a recommendation ?; {dataset} {target_lex_id}
+straightforward; seen; What would be a suitable recommendation for {dataset} user ?; {dataset} {target_lex_id}
+straightforward; seen; What would be a helpful recommendation for {dataset} user ?; {dataset} {target_lex_id}
+straightforward; seen; Can you recommend an item for {dataset} user ?; {dataset} {target_lex_id}
+straightforward; seen; Based on {dataset} user 's interests and requirements , what item would you suggest to try ?; {dataset} {target_lex_id}
+straightforward; seen; For {dataset} user , what item stands out as a top recommendation that they should consider ?; {dataset} {target_lex_id}
+straightforward; unseen; What is the top recommendation for {dataset} user ?; {dataset} {target_lex_id}
